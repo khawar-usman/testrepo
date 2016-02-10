@@ -20,11 +20,6 @@ class TestTableControllerTableViewController: UITableViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
 
-
-        // Uncomment the following line to preserve selection between presentations
-        // self.clearsSelectionOnViewWillAppear = false
-
-        // Uncomment the following line to display an Edit button in the navigation bar for this view controller.
         self.tableView.estimatedRowHeight = 400.0
         self.tableView.rowHeight = UITableViewAutomaticDimension
         tableCount = 1;
@@ -46,9 +41,7 @@ class TestTableControllerTableViewController: UITableViewController {
     func startRequest(){
         Alamofire.request(.GET, "http://s3.amazonaws.com/vodassets/showcase.json", parameters:nil)
             .responseJSON { response in
-                //print(response.request)  // original URL request
-                //print(response.response) // URL response
-                //print(response.data)     // server data
+            
                 print(response.result)   // result of response serialization
                 
                 if let JSON = response.result.value {
@@ -111,20 +104,6 @@ extension TestTableControllerTableViewController {
            
             
             cell.movieImage.imageFromUrl(finalurl)
-
-//            Alamofire.request(.GET,finalurl , parameters:nil)
-//                .responseJSON { response in
-//                   // server data
-//                    print(response.result)   // result of response serialization
-//                    
-//                    if let JSON = response.result.value {
-//                        print("JSON image: \(JSON)")
-//
-//                        let imageData:NSData? = JSON as? NSData
-//                        cell.movieImage.image = UIImage(data: imageData!, scale: 0.5)
-//                    }
-//                    
-//            }
             
         }
 
