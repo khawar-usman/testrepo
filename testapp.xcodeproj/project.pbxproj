@@ -10,6 +10,7 @@
 		263F45CE1C60C76500DC4206 /* Alamofire.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 263F45CD1C60C76500DC4206 /* Alamofire.framework */; };
 		263F45D01C60EEA700DC4206 /* DetailControllerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 263F45CF1C60EEA700DC4206 /* DetailControllerViewController.swift */; settings = {ASSET_TAGS = (); }; };
 		26912B441C62012800D372CD /* CustomMovieCellTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 26912B431C62012800D372CD /* CustomMovieCellTableViewCell.swift */; settings = {ASSET_TAGS = (); }; };
+		2699B71F1C7484D3007DE996 /* thirdbranchTESTTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2699B71E1C7484D3007DE996 /* thirdbranchTESTTableViewCell.swift */; settings = {ASSET_TAGS = (); }; };
 		26D993461C5F6581001E880C /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 26D993451C5F6581001E880C /* AppDelegate.swift */; };
 		26D993481C5F6581001E880C /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 26D993471C5F6581001E880C /* ViewController.swift */; };
 		26D9934B1C5F6581001E880C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 26D993491C5F6581001E880C /* Main.storyboard */; };
@@ -42,6 +43,7 @@
 		263F45CD1C60C76500DC4206 /* Alamofire.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Alamofire.framework; path = "Pods/../build/Debug-iphoneos/Alamofire.framework"; sourceTree = "<group>"; };
 		263F45CF1C60EEA700DC4206 /* DetailControllerViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DetailControllerViewController.swift; sourceTree = "<group>"; };
 		26912B431C62012800D372CD /* CustomMovieCellTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CustomMovieCellTableViewCell.swift; sourceTree = "<group>"; };
+		2699B71E1C7484D3007DE996 /* thirdbranchTESTTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = thirdbranchTESTTableViewCell.swift; sourceTree = "<group>"; };
 		26D993421C5F6581001E880C /* testapp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = testapp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		26D993451C5F6581001E880C /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		26D993471C5F6581001E880C /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -117,6 +119,7 @@
 				26D993471C5F6581001E880C /* ViewController.swift */,
 				26D993731C5F65EB001E880C /* TestTableControllerTableViewController.swift */,
 				263F45CF1C60EEA700DC4206 /* DetailControllerViewController.swift */,
+				2699B71E1C7484D3007DE996 /* thirdbranchTESTTableViewCell.swift */,
 				26912B431C62012800D372CD /* CustomMovieCellTableViewCell.swift */,
 				26D993491C5F6581001E880C /* Main.storyboard */,
 				26D9934C1C5F6581001E880C /* Assets.xcassets */,
@@ -314,6 +317,7 @@
 				26D993481C5F6581001E880C /* ViewController.swift in Sources */,
 				263F45D01C60EEA700DC4206 /* DetailControllerViewController.swift in Sources */,
 				26912B441C62012800D372CD /* CustomMovieCellTableViewCell.swift in Sources */,
+				2699B71F1C7484D3007DE996 /* thirdbranchTESTTableViewCell.swift in Sources */,
 				26D993741C5F65EB001E880C /* TestTableControllerTableViewController.swift in Sources */,
 				26D993461C5F6581001E880C /* AppDelegate.swift in Sources */,
 			);
