@@ -26,4 +26,9 @@ class CustomMovieCellTableViewCell: UITableViewCell {
         // Configure the view for the selected state
     }
 
+    override func gestureRecognizer(gestureRecognizer: UIGestureRecognizer, shouldBeRequiredToFailByGestureRecognizer otherGestureRecognizer: UIGestureRecognizer) -> Bool {
+        //test func
+    }
+    
+    
 }
