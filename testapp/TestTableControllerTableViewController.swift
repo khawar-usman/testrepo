@@ -105,6 +105,8 @@ extension TestTableControllerTableViewController {
             
             cell.movieImage.imageFromUrl(finalurl)
             
+            //cell is being moved from here to new branch okay??/
+            
         }
 
 //        cell.imageView?.image = UIImage(
